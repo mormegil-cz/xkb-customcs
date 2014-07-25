@@ -19,6 +19,8 @@ Klávesa                                        | Výsledek s <kbd>AltGr</kbd> |
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>R</kbd> | `®`                | Registered trademark
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd> | `™`                | Trademark
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>O</kbd> | `°`                | Značka stupně
+<kbd>AltGr</kbd>+<kbd>P</kbd>                  | `′`                | Značka minut
+<kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> | `″`                | Značka vteřin
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd> | `’`                | Apostrof / pravá anglická jednoduchá uvozovka
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd> | `‚`                | Levá česká jednoduchá uvozovka
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd> | `‘`                | Pravá česká / levá anglická jednoduchá uvozovka
@@ -26,6 +28,7 @@ Klávesa                                        | Výsledek s <kbd>AltGr</kbd> |
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd> | `–`                | Půlčtverčíková pomlčka (_n-dash_)
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd> | `—`                | Čtverčíková pomlčka (_m-dash_)
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>.</kbd> | `…`                | Výpustka (trojtečka)
+<kbd>AltGr</kbd>+<kbd>Space</kbd>              | ` `                | Nezlomitelná mezera (_nbsp_)
 
 
 Instalace
