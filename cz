@@ -64,7 +64,7 @@ xkb_symbols "basic" {
     key <AB09>	{ [    period,      colon,      greater,     U2026 ]	};
     key <AB10>	{ [     minus, underscore,        slash,     question ]	};
 
-    key <SPCE>	{ [     space,      space,        space,       U00A0 ]	};
+    key <SPCE>	{ [     space,      space,        U00A0,     space ]	};
 
     include "level3(ralt_switch)"
 };
