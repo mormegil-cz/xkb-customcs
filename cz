@@ -1,7 +1,7 @@
-partial default alphanumeric_keys 
+partial default alphanumeric_keys
 xkb_symbols "basic" {
-     
-     // This layout conforms to a new cz compromise standard designed 
+
+     // This layout conforms to a new cz compromise standard designed
      // to satisfy most unix, windows and mac users.
      // 2001 by Kamil Toman <ktoman@email.cz>
 
@@ -32,21 +32,21 @@ xkb_symbols "basic" {
     key <AD07>	{ [         u,          U,     NoSymbol,     NoSymbol ]	};
     key <AD08>	{ [         i,          I,     NoSymbol,     NoSymbol ]	};
     key <AD09>	{ [         o,          O,       degree,     degree ]	};
-    key <AD10>	{ [         p,          P,        U2032,        U2033 ]	};
+    key <AD10>	{ [         p,          P,        U2032,     U2033 ]	};
 
-    key <AD11>	{ [    uacute,      slash,  bracketleft,     division ]	};
-    key <AD12>	{ [parenright,  parenleft, bracketright,     multiply ]	};
+    key <AD11>	{ [    uacute,      slash,  bracketleft,     braceleft ]	};
+    key <AD12>	{ [parenright,  parenleft, bracketright,     braceright ]	};
 
     key <AC01>	{ [         a,          A,        U2019,     U2019 ]	};
     key <AC02>	{ [         s,          S,        U201A,     U201A ]	};
     key <AC03>	{ [         d,          D,        U2018,     U2018 ]	};
-    key <AC04>	{ [         f,          F,  bracketleft,     NoSymbol ]	};
-    key <AC05>	{ [         g,          G, bracketright,     NoSymbol ]	};
-    key <AC06>	{ [         h,          H,        grave,     NoSymbol ]	};
-    key <AC07>	{ [         j,          J,   apostrophe,     NoSymbol ]	};
-    key <AC08>	{ [         k,          K,      lstroke,     NoSymbol ]	};
-    key <AC09>	{ [         l,          L,      Lstroke,     NoSymbol ]	};
-                  
+    key <AC04>	{ [         f,          F,     NoSymbol,     NoSymbol ]	};
+    key <AC05>	{ [         g,          G,     NoSymbol,     NoSymbol ]	};
+    key <AC06>	{ [         h,          H,     NoSymbol,     NoSymbol ]	};
+    key <AC07>	{ [         j,          J,     NoSymbol,     NoSymbol ]	};
+    key <AC08>	{ [         k,          K,     NoSymbol,     NoSymbol ]	};
+    key <AC09>	{ [         l,          L,      lstroke,     Lstroke ]	};
+
     key <AC10>	{ [     uring,   quotedbl,       dollar,     NoSymbol ]	};
     key <AC11>	{ [   section,     exclam,   apostrophe,     quotedbl ]	};
     key <AC12>	{ [  EuroSign, dead_diaeresis, NoSymbol,     NoSymbol ]	};
@@ -64,7 +64,12 @@ xkb_symbols "basic" {
     key <AB09>	{ [    period,      colon,      greater,     U2026 ]	};
     key <AB10>	{ [     minus, underscore,        slash,     question ]	};
 
-    key <SPCE>	{ [     space,      space,        U00A0,     space ]	};
+    key <SPCE>	{ [     space,      space,        U00A0,     U00A0 ]	};
+
+    key <KPAD>	{ [      plus,       plus,        U00B1,     U00B1 ]	};
+    key <KPSU>	{ [     minus,      minus,        U2212,     U2213 ]	};
+    key <KPMU>	{ [  asterisk,   asterisk,        multiply,  U22C5 ]	};
+    key <KPDV>	{ [     slash,      slash,        U00F7,     U2215 ]	};
 
     include "level3(ralt_switch)"
 };
@@ -77,14 +82,14 @@ xkb_symbols "bksl" {
     key <BKSL>	{ [ backslash,        bar,        slash,     NoSymbol ]	};
 };
 
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "qwerty" {
- 
+
     // This layout represent actual keyboard layout. It complies with symbols
     // printed on keys.
     // -----------------------------------------------------------------------
     // This layout was created in 2011 by Lukáš Mojžíš <lmojzis@grenames.cz>
-    
+
     include "cz(basic)"
     name[Group1]= "Czech (qwerty)";
 
