@@ -24,6 +24,14 @@ Klávesa                                           | Výsledek s <kbd>AltGr</kbd
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>A</kbd>    | `’`                | Apostrof / pravá anglická jednoduchá uvozovka
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>S</kbd>    | `‚`                | Levá česká jednoduchá uvozovka
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd>    | `‘`                | Pravá česká / levá anglická jednoduchá uvozovka
+<kbd>AltGr</kbd>+<kbd>H</kbd>                     | `←`                | Šipka vlevo
+<kbd>AltGr</kbd>+<kbd>J</kbd>                     | `↑`                | Šipka nahoru
+<kbd>AltGr</kbd>+<kbd>K</kbd>                     | `↓`                | Šipka dolů
+<kbd>AltGr</kbd>+<kbd>L</kbd>                     | `→`                | Šipka vpravo
+<kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>H</kbd>    | `⇐`                | Dvojitá šipka vlevo
+<kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>J</kbd>    | `⇑`                | Dvojitá šipka nahoru
+<kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>K</kbd>    | `⇓`                | Dvojitá šipka dolů
+<kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>L</kbd>    | `⇒`                | Dvojitá šipka vpravo
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>C</kbd>    | `©`                | Copyright
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>N</kbd>    | `–`                | Půlčtverčíková pomlčka (_n-dash_)
 <kbd>AltGr</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd>    | `—`                | Čtverčíková pomlčka (_m-dash_)
@@ -44,5 +52,5 @@ Instalace
 Soubor `cz` umístěte do `/usr/share/X11/xkb/symbols/`, přičemž případně nahraďte původní verzi. Poté musíte ručně smazat soubory ve `/var/lib/xkb`, abyste vymazali systémovou cache (vizte [odpověď na SO][1]) či zavolat `setxkbmap -layout cz` ([odpověď na SO][2]), podle systému.
 
 
-   [1]: http://stackoverflow.com/a/18123960/304138
+   [1]: https://stackoverflow.com/a/18123960/304138
    [2]: https://askubuntu.com/a/968338/146272

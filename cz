@@ -12,16 +12,16 @@ xkb_symbols "basic" {
     key <TLDE>	{ [ semicolon, dead_abovering,    grave,   asciitilde ]	};
     key <AE01>	{ [      plus,          1,       exclam,   dead_tilde ]	};
     key <AE02>	{ [    ecaron,          2,           at,   dead_caron ]	};
-    key <AE03>	{ [    scaron,          3,   numbersign, dead_circumflex ] };
+    key <AE03>	{ [    scaron,          3,   numbersign,   dead_circumflex ] };
     key <AE04>	{ [    ccaron,          4,       dollar,   dead_breve ]	};
-    key <AE05>	{ [    rcaron,          5,      percent, dead_abovering ] };
-    key <AE06>	{ [    zcaron,          6,  asciicircum,  dead_ogonek ]	};
+    key <AE05>	{ [    rcaron,          5,      percent,   dead_abovering ] };
+    key <AE06>	{ [    zcaron,          6,  asciicircum,   dead_ogonek ] };
     key <AE07>	{ [    yacute,          7,    ampersand,   dead_grave ]	};
-    key <AE08>	{ [    aacute,          8,     asterisk, dead_abovedot]	};
+    key <AE08>	{ [    aacute,          8,     asterisk,   dead_abovedot] };
     key <AE09>	{ [    iacute,          9,    braceleft,   dead_acute ]	};
-    key <AE10>	{ [    eacute,          0,   braceright, dead_doubleacute ] };
-    key <AE11>	{ [     equal,    percent,     NoSymbol, dead_diaeresis ] };
-    key <AE12>	{ [dead_acute, dead_caron,  dead_macron, dead_cedilla ]	};
+    key <AE10>	{ [    eacute,          0,   braceright,   dead_doubleacute ] };
+    key <AE11>	{ [     equal,    percent,     NoSymbol,   dead_diaeresis ] };
+    key <AE12>	{ [dead_acute, dead_caron,  dead_macron,   dead_cedilla ] };
 
     key <AD01>	{ [         q,          Q,        U201E,     U201E ]	};
     key <AD02>	{ [         w,          W,        U201C,     U201C ]	};
@@ -42,10 +42,10 @@ xkb_symbols "basic" {
     key <AC03>	{ [         d,          D,        U2018,     U2018 ]	};
     key <AC04>	{ [         f,          F,     NoSymbol,     NoSymbol ]	};
     key <AC05>	{ [         g,          G,     NoSymbol,     NoSymbol ]	};
-    key <AC06>	{ [         h,          H,     NoSymbol,     NoSymbol ]	};
-    key <AC07>	{ [         j,          J,     NoSymbol,     NoSymbol ]	};
-    key <AC08>	{ [         k,          K,     NoSymbol,     NoSymbol ]	};
-    key <AC09>	{ [         l,          L,      lstroke,     Lstroke ]	};
+    key <AC06>	{ [         h,          H,        U2190,     U21D0 ]	};
+    key <AC07>	{ [         j,          J,        U2191,     U21D1 ]	};
+    key <AC08>	{ [         k,          K,        U2193,     U21D3 ]	};
+    key <AC09>	{ [         l,          L,        U2192,     U21D2 ]	};
 
     key <AC10>	{ [     uring,   quotedbl,       dollar,     NoSymbol ]	};
     key <AC11>	{ [   section,     exclam,   apostrophe,     quotedbl ]	};
