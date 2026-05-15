@@ -49,7 +49,7 @@ Klávesa                                           | Výsledek s <kbd>AltGr</kbd
 Instalace
 ---------
 
-Soubor `cz` umístěte do `/usr/share/X11/xkb/symbols/`, přičemž případně nahraďte původní verzi. Poté musíte ručně smazat soubory ve `/var/lib/xkb`, abyste vymazali systémovou cache (vizte [odpověď na SO][1]), zavolat `setxkbmap -layout cz` (X, [odpověď na SO][2]), či poslat D-Bus zprávu `dbus-send --session --type=signal --reply-timeout=100 --dest=org.kde.keyboard /Layouts org.kde.keyboard.reloadConfig` (KDE Plasma + Wayland, [odpověď na SO][3]), podle systému.
+Soubor `cz` umístěte do `/usr/share/X11/xkb/symbols/`, přičemž případně nahraďte původní verzi. Poté musíte ručně smazat soubory ve `/var/lib/xkb`, abyste vymazali systémovou cache (vizte [odpověď na SO][1]), zavolat `setxkbmap -layout cz` (X, [odpověď na SO][2]), či poslat D-Bus zprávu `dbus-send --session --type=signal --reply-timeout=100 --dest=org.kde.keyboard /Layouts org.kde.keyboard.reloadConfig`, resp. nověji `kwriteconfig6 --file kxkbrc --group Layout --key LayoutList us --notify` (KDE Plasma + Wayland, [odpověď na SO][3]), podle systému.
 
 
    [1]: https://stackoverflow.com/a/18123960/304138
